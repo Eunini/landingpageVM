@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
             <div class="logo">YourLogo</div>
             <div class="menu-toggle" id="mobile-menu">
@@ -28,17 +28,36 @@
     <main>
         <section id="home" class="section">
             <div class="container">
-                <h1>Welcome to Our Landing Page</h1>
-                <p>This is a beautifully designed landing page with a responsive layout and toggle navbar.</p>
+                <div class="content-box">
+                    <h1>Welcome to Our Landing Page</h1>
+                    <p>This is a beautifully designed landing page with a responsive layout and toggle navbar.</p>
+                </div>
             </div>
         </section>
         <section id="about" class="section">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>Learn more about what we do and our mission. We are dedicated to providing the best service to our clients.</p>
-                <img src="https://placekitten.com/800/400" alt="About Us">
+            <div class="flex-section">
+                <!-- Text Content -->
+                <div class="about-content">
+                    <h2>About Us</h2>
+                    <p>We are a passionate team committed to delivering high-quality services and innovative solutions. 
+                       Our mission is to bridge the gap between ideas and execution, ensuring excellence in everything we do.</p>
+                    <p>With years of experience, we specialize in providing cutting-edge solutions tailored to meet the needs of our clients. 
+                       From consultation to implementation, we work with dedication and integrity.</p>
+                    <ul>
+                        <li><strong>Our Vision:</strong> To empower businesses with technology-driven success.</li>
+                        <li><strong>Our Mission:</strong> Delivering innovation, efficiency, and outstanding service.</li>
+                        <li><strong>Core Values:</strong> Integrity, Collaboration, Innovation, Excellence.</li>
+                    </ul>
+                    <button class="learn-more">Learn More</button>
+                </div>
+        
+                <!-- Image -->
+                <div class="about-image">
+                    <img src="about-img.jpg" alt="About Us">
+                </div>
             </div>
         </section>
+        
         <section id="services" class="section">
             <div class="container">
                 <h2>Our Services</h2>
@@ -65,15 +84,15 @@
                 <p>Check out some of our latest projects.</p>
                 <div class="portfolio-list">
                     <div class="portfolio-item">
-                        <img src="https://placekitten.com/300/200" alt="Project 1">
+                        <img src="project1.jpg" alt="Project 1">
                         <h3>Project 1</h3>
                     </div>
                     <div class="portfolio-item">
-                        <img src="https://placekitten.com/300/201" alt="Project 2">
+                        <img src="project2.jpg" alt="Project 2">
                         <h3>Project 2</h3>
                     </div>
                     <div class="portfolio-item">
-                        <img src="https://placekitten.com/300/202" alt="Project 3">
+                        <img src="project3.jpg" alt="Project 3">
                         <h3>Project 3</h3>
                     </div>
                 </div>
